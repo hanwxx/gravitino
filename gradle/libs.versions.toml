@@ -152,6 +152,7 @@ commons-io = { group = "commons-io", name = "commons-io", version.ref = "commons
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version.ref = "caffeine" }
 rocksdbjni = { group = "org.rocksdb", name = "rocksdbjni", version.ref = "rocksdbjni" }
 commons-collections4 = { group = "org.apache.commons", name = "commons-collections4", version.ref = "commons-collections4" }
+iceberg-aliyun = { group = "org.apache.iceberg", name = "iceberg-aliyun", version.ref = "iceberg" }
 iceberg-aws = { group = "org.apache.iceberg", name = "iceberg-aws", version.ref = "iceberg" }
 iceberg-core = { group = "org.apache.iceberg", name = "iceberg-core", version.ref = "iceberg" }
 iceberg-api = { group = "org.apache.iceberg", name = "iceberg-api", version.ref = "iceberg" }

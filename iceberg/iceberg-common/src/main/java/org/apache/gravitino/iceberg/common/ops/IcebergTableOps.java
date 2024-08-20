@@ -63,7 +63,8 @@ public class IcebergTableOps implements AutoCloseable {
 
   public static final Logger LOG = LoggerFactory.getLogger(IcebergTableOps.class);
 
-  @Getter protected Catalog catalog;
+  @Getter
+  protected Catalog catalog;
   private SupportsNamespaces asNamespaceCatalog;
   private final IcebergCatalogBackend catalogBackend;
   private String catalogUri = null;
@@ -75,7 +76,10 @@ public class IcebergTableOps implements AutoCloseable {
           IcebergConstants.AWS_S3_REGION,
           IcebergConstants.ICEBERG_S3_ACCESS_KEY_ID,
           IcebergConstants.ICEBERG_S3_SECRET_ACCESS_KEY,
-          IcebergConstants.ICEBERG_S3_ENDPOINT);
+          IcebergConstants.ICEBERG_S3_ENDPOINT,
+          IcebergConstants.ICEBERG_OSS_ENDPOINT,
+          IcebergConstants.ICEBERG_OSS_ACCESS_KEY_ID,
+          IcebergConstants.ICEBERG_OSS_ACCESS_KEY_SECRET);
 
   public IcebergTableOps(IcebergConfig icebergConfig) {
     this.catalogBackend =
