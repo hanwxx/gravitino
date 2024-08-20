@@ -48,7 +48,8 @@ public class IcebergPropertiesUtils {
         IcebergConstants.ICEBERG_S3_SECRET_ACCESS_KEY);
     // OSS
     map.put(IcebergConstants.GRAVITINO_OSS_ENDPOINT, IcebergConstants.ICEBERG_OSS_ENDPOINT);
-    map.put(IcebergConstants.GRAVITINO_OSS_ACCESS_KEY_ID, IcebergConstants.ICEBERG_OSS_ACCESS_KEY_ID);
+    map.put(
+        IcebergConstants.GRAVITINO_OSS_ACCESS_KEY_ID, IcebergConstants.ICEBERG_OSS_ACCESS_KEY_ID);
     map.put(
         IcebergConstants.GRAVITINO_OSS_ACCESS_KEY_SECRET,
         IcebergConstants.ICEBERG_OSS_ACCESS_KEY_SECRET);

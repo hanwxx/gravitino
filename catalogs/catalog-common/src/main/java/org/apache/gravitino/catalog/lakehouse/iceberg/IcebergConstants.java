@@ -52,7 +52,6 @@ public class IcebergConstants {
   public static final String GRAVITINO_OSS_ACCESS_KEY_SECRET = "oss-access-key-secret";
   public static final String ICEBERG_OSS_ACCESS_KEY_SECRET = "client.access-key-secret";
 
-
   // Iceberg Table properties constants
 
   public static final String COMMENT = "comment";

@@ -63,8 +63,7 @@ public class IcebergTableOps implements AutoCloseable {
 
   public static final Logger LOG = LoggerFactory.getLogger(IcebergTableOps.class);
 
-  @Getter
-  protected Catalog catalog;
+  @Getter protected Catalog catalog;
   private SupportsNamespaces asNamespaceCatalog;
   private final IcebergCatalogBackend catalogBackend;
   private String catalogUri = null;
